@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 extern char **environ;
-/*extern int exit_status;*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,4 +47,4 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t _getline(char **buf, size_t *n, int fd);
 int _strcmp(char *s1, char *s2);
 
-#endif
+#endif /* MAIN_H */
