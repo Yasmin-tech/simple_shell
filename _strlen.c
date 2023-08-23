@@ -10,7 +10,6 @@
 int _strlen(char *s)
 {
 	int len = 0;
-	/*char *copy = s;*/
 
 	while (*s != '\0')
 	{
