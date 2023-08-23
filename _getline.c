@@ -38,7 +38,7 @@ ssize_t _getline(char **lineptr, size_t *n, int fd)
 		if (num_read <= 0)
 			break;
 
-		if ((unsigned long int)*n - 1 <= line_index)
+		if ((unsigned int)*n - 1 <= line_index)
 		{
 			*n *= 2;
 			*lineptr = _realloc(*lineptr, *n / 2, *n);
