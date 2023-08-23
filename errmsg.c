@@ -7,7 +7,7 @@
  * @new_argv: an array of character pointers representing
  *	the tokenized command
  *
- * Return: void
+ * Return: void(nothing)
  */
 
 void errmsg(char **argv, char **new_argv)
